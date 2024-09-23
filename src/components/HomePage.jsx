@@ -12,7 +12,7 @@ const HomePage = () => {
         <iframe
           width="700" // Puedes ajustar el ancho
           height="400" // Puedes ajustar la altura
-          src="https://www.youtube.com/embed/1C3QJhDtZMo" // URL del video
+          src="https://youtu.be/pMF7z-af4Ek" // URL del video
           title="Video de YouTube"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
