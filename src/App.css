@@ -1,0 +1,86 @@
+/* Estilo general para el cuerpo */
+body {
+    background-color: #f7f5f5; /* Gris claro muy claro */
+    
+  }
+  
+  /* Estilo general para la barra de navegación */
+  .navbar {
+    margin-top: 60px;
+    background-color: #333; /* Fondo oscuro */
+    padding: 20px; /* Espacio interno */
+  }
+  
+  /* Lista de navegación organizada en forma de grilla */
+  .navbar-list {
+    display: grid; /* Cambia la lista a un grid */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Define columnas de tamaño mínimo de 150px, expandiéndose */
+    gap: 10px; /* Espacio entre los elementos de la grilla */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-items: center; /* Centra los elementos en cada celda */
+  }
+  
+  /* Elementos de la lista como botones */
+  .navbar-item {
+    display: flex; /* Utiliza flex para centrar el enlace dentro del botón */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+  }
+
+
+
+  
+  
+  /* Enlaces de la barra de navegación como botones */
+  .navbar-link {
+    display: block; /* Para que el enlace ocupe todo el botón */
+    color: #fff; /* Color de texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 16px; /* Tamaño de fuente */
+    padding: 12px 20px; /* Espaciado interno del botón */
+    background-color: #444; /* Color de fondo del botón */
+    border: none; /* Sin borde */
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a mano */
+    text-align: center; /* Centra el texto */
+    width: 100%; /* El botón ocupa todo el ancho de la celda */
+    transition: background-color 0.3s; /* Transición para efecto hover */
+  }
+  
+  /* Efecto hover para los enlaces */
+  .navbar-link:hover {
+    background-color: #837979; /* Cambia el fondo al pasar el ratón */
+  }
+  
+
+
+  /* Estilos para la imagen del logo de Siemens */
+.siemens-logo {
+    width: 500px; /* Ancho de la imagen */
+    height: auto; /* Ajuste proporcional */
+    display: block; /* Para que se comporte como un bloque */
+    margin:5% auto; /* Centrar horizontalmente */
+    padding: 20px; /* Espaciado alrededor */
+    transition: transform 0.3s ease; /* Transición para efecto hover */
+  }
+  
+  /* Efecto hover para la imagen */
+  .siemens-logo:hover {
+    transform: scale(2.0); /* Aumenta la imagen al pasar el ratón */
+  }
+  
+
+  .link-zona {
+    text-decoration: none; /* Quitar el subrayado */
+    color: #0056b3; /* Azul intenso (puedes ajustar el código de color según prefieras) */
+  }
+  
+
+  .video-container {
+    display: flex; /* Usar flexbox para centrar */
+    justify-content: center; /* Centra horizontalmente */
+    margin-top: 20px; /* Espaciado superior */
+  }
+  
