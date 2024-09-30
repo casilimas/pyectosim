@@ -8,7 +8,7 @@ const IPLinkPage = () => {
       <h1>ENLACE A PLC</h1>
       <p>
         Accede a la aplicación local de siemens a la siguiente dirección:{" "}
-        <a href="http://192.168.1.3" target="_blank" rel="noopener noreferrer">
+        <a href="http://192.168.31.3" target="_blank" rel="noopener noreferrer">
           <h2 className="link-zona">CONTROL A PLC ZONA (A)</h2>
         </a>
       </p>
